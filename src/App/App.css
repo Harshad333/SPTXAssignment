@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100&display=swap");
+
+body {
+  background-color: black !important;
+  height: 100vh;
+}
+
+.App {
+  height: 500px;
+}
+
+.header {
+  padding: 10px;
+
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #3772ff;
+  /* height: 50px; */
+  text-align: center;
+}
+
+.drawer {
+  background-color: black;
+  color: #808191;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Card {
+  background-color: #14161a !important;
+  font-family: Poppins;
+  font-size: 14;
+  padding: 15;
+  font-weight: bold;
+  display: "flex";
+  flex-direction: row;
+  padding-inline: 30;
+  justify-content: "space-between";
+  width: 350;
+  border-radius: 15;
+}
+
+button {
+  background-color: #353945;
+  color: white;
+  font-family: "Poppins";
+  padding: 4;
+  width: 80;
+  text-align: "center";
+  border-radius: 10;
+  margin-top: 10;
+  margin-inline: 5;
+}
+
+.button1 {
+  color: "white";
+  align-content: "center";
+  display: "flex";
+  flex-direction: "row";
+  padding: 8;
+  border-radius: 6;
+  border-color: "#242731";
+  border-style: "solid";
+  border-width: 2;
+  width: 150;
+  justify-content: "center";
+}
+
+.button2 {
+  color: "white";
+  align-items: "center";
+  justify-content: "center";
+  display: "flex";
+  flex-direction: "row";
+  background-color: "#3772FF";
+  padding: 8;
+  border-radius: 6;
+  margin-right: 10;
+  width: 150;
+}
+
+.button4 {
+  background-color: #242731;
+  color: white;
+  font-family: Poppins;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+.Tab {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+.active-tab{
+  border-bottom: 4px solid blue;
+}
+.closeIcon {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -9px;
+  right: -6px;
+  font-size: 10px;
+  line-height: 25px;
+  text-align: center;
+}
+/* Avalance Button */
+.avalance-dropdown {
+  display: flex;
+  background-color: #353945;
+  flex-direction: row;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 8px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+div#single-tab {
+  margin-right: 20px;
+}
+.card-container {
+  background-color: #14161a;
+  padding: 10px;
+}
+.button.button-1 {
+  background-color: #353945;
+  color: #fff;
+  border: 1px solid #353945;
+  border-radius: 7px;
+  padding: 7px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+.lorem-text {
+  font-size: 16px;
+}
