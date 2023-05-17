@@ -4,7 +4,6 @@ import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
-import ContentCopyOutlinedIcon from "@mui/icons-material/ContentCopyOutlined";
 import LogoutIcon from "@mui/icons-material/Logout";
 import SectionCard from "./common/sectionCard";
 import ReferalLinkCard from "./common/ReferalLinkCard";

@@ -1,6 +1,6 @@
 import React from 'react';
+/* eslint-disable */
 import './App.css';
-import Section from '../Components/Section';
 import ResponsiveDrawer from "../Components/AsideMenu";
 
 function App() {
